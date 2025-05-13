@@ -11,7 +11,7 @@ import {
   ChartLegendContent,
 } from "@/components/ui/chart";
 import { Monitor, Phone } from "lucide-react";
-import { Card, CardDescription, CardHeader, CardTitle } from "./ui/card";
+import { Card, CardDescription, CardHeader, CardTitle } from "../ui/card";
 
 const chartData = [
   { month: "January", desktop: 186, mobile: 80 },

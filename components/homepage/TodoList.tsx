@@ -1,6 +1,6 @@
 import { ScrollArea } from "@/components/ui/scroll-area";
-import { Card } from "./ui/card";
-import { Checkbox } from "./ui/checkbox";
+import { Card } from "../ui/card";
+import { Checkbox } from "../ui/checkbox";
 import CalenderPopover from "./CalenderPopover";
 
 const TodoList = () => {

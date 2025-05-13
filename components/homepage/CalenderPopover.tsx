@@ -5,12 +5,12 @@ import {
   PopoverContent,
   PopoverTrigger,
 } from "@/components/ui/popover";
-import { Badge } from "./ui/badge";
+import { Badge } from "../ui/badge";
 import { Calendar } from "@/components/ui/calendar";
 import { useState } from "react";
 import { CalendarIcon } from "lucide-react";
 import { format } from "date-fns";
-import { Button } from "./ui/button";
+import { Button } from "../ui/button";
 
 const CalenderPopover = () => {
   const [date, setDate] = useState<Date | undefined>(new Date());
